@@ -199,7 +199,6 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   return "Hola" + " " + nombre + "!";
-
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -224,7 +223,7 @@ function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1.20;
+  return euro * 1.2;
 }
 
 function esVocal(letra) {
@@ -236,13 +235,12 @@ function esVocal(letra) {
   if (letra.length > 1) {
     return "Dato incorrecto";
   }
-  var vocales = "aeiou"
+  var vocales = "aeiou";
   if (vocales.includes(letra)) {
-     return "Es vocal";
+    return "Es vocal";
   } else {
     return "Dato incorrecto";
   }
-
 }
 
 // No modificar nada debajo de esta línea
